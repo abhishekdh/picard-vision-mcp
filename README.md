@@ -54,7 +54,7 @@ Setup our MCP with Cline, Cursor, Claude, VS Code, Github Copilot:
         "JIRA_BASE_URL": "https://your-jira-instance.atlassian.net",
         "JIRA_USERNAME": "your-jira-username",
         "JIRA_PASSWORD": "your-jira-api-token",
-        "CREDENTIALS": "{\"mobile_postpaid\":{\"username\":\"user@example.com\",\"password\":\"pass123\",\"additionalInfo\":{\"pin\":\"1234\"}},\"mobile_prepaid\":{\"username\":\"prepaid@example.com\",\"password\":\"pass456\"}}"
+        "CREDENTIALS": "{\"mobile_user_staging\":{\"username\":\"user@example.com\",\"password\":\"pass123\",\"additionalInfo\":{\"pin\":\"1234\"}},\"mobile_user_prod\":{\"username\":\"prod@example.com\",\"password\":\"pass456\"}}"
       }
     }
   }
@@ -75,8 +75,8 @@ Setup our MCP with Cline, Cursor, Claude, VS Code, Github Copilot:
         "JIRA_BASE_URL": "https://your-jira-instance.atlassian.net",
         "JIRA_USERNAME": "your-jira-username",
         "JIRA_PASSWORD": "your-jira-api-token",
-        "{{ENVIRONMENT}}_POSTPAID_USERNAME": "user@example.com",
-        "{{ENVIRONMENT}}_POSTPAID_PASSWORD": "pass123",
+        "{{ENVIRONMENT}}_USERNAME": "user@example.com",
+        "{{ENVIRONMENT}}_PASSWORD": "pass123",
       }
     }
   }
